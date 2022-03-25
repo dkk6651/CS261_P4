@@ -1,4 +1,16 @@
+/**File Name: BruteForce.java
+ * Author: Daniel Kee Kim
+ * Description: Brute Force method of Closest pair of points.
+ * Checks all possible combinations of points by iterating threw them twice.
+ */
+
 public class BruteForce extends ClosestPairAlg{
+
+    /**
+     * Closest Pair algorithm using Brute Force method
+     * @param P input array of Points
+     * @return Triple of two points and distance
+     */
     public Triple closestPair(Point[] P){
         double lowest = Double.MAX_VALUE;
         Triple triple = null;
