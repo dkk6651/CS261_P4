@@ -7,6 +7,7 @@ public class BruteForce extends ClosestPairAlg{
                 double dist = P[i].distance(P[j]);
                 if(dist < lowest){
                     triple = new Triple(P[i], P[j], dist);
+                    lowest = dist;
                 }
             }
         }
