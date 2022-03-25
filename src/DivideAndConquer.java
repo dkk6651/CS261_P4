@@ -1,11 +1,11 @@
+import java.util.*;
+
 /**File Name: DivideAndConquer.java
  * Author: Daniel Kee Kim
  * Description: Divide and Conquer method of Closest pair of points.
  * Divides the full list into half after sorting to find closest pair.
  * Recursion bottoms out at counts less than 4 and uses brute force.
  */
-
-import java.util.*;
 
 public class DivideAndConquer extends ClosestPairAlg{
 
